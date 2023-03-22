@@ -1,0 +1,33 @@
+/*
+	¯\_(ツ)_/¯
+*/
+table {
+	max-width: 100vw;
+}
+
+.cell{
+	border: 1px solid red;
+	cursor: pointer;
+	text-align: center;
+	height: 30px;
+	width: 30px;
+}
+
+#field{
+	height: 80vh;
+	min-height: 400px;
+}
+
+.acqua{
+	background-color: aqua;
+}
+
+footer{
+	z-index: 10000;
+	height: 60px;
+	width: 100%;
+	position: fixed;
+	bottom:0px;
+	padding-left: 5%;
+	padding-top:0.5%;
+}

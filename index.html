@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<meta name="author" content="FallenAngel">
+		<!-- Stylesheets -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+		<link rel="stylesheet" href="CSS/main.css">
+		<title>MineSweepeer</title>
+	</head>
+	<body>
+		<main>
+			<section id="fieldSettings" class="text-center p-5 bg-info bg-gradient">
+				<input type="number" name="fieldRows" min="2" max="100" step="1" placeholder="Rows" class="p-1" />
+				<input type="number" name="fieldColumns" min="2" max="100" step="1" placeholder="Columns" class="p-1" />
+				<select name="difficulty" class="p-1">
+					<option value="1">Difficulty 1</option>
+					<option value="2">Difficulty 2</option>
+					<option value="3">Difficulty 3</option>
+				</select>
+				<button name="generateField">Generate!</button>
+			</section>
+			<section id="game">
+			</section>
+			<section id="field" class="d-flex justify-content-center align-items-center">
+			</section>
+		</main>
+		<footer class="bg-info bg-gradient">
+			<h6 class="text-white">Powered by boolean #92 <br> M.A.</h6>
+		</footer>
+	</body>
+	<script src="script/main.js"></script>
+</html>
